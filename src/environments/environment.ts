@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyASWVrgZxmfC6YyfO7W5ukBNVBz2gQcnGQ",
+    authDomain: "vila-surf-shop.firebaseapp.com",
+    databaseURL: "https://vila-surf-shop.firebaseio.com",
+    projectId: "vila-surf-shop",
+    storageBucket: "vila-surf-shop.appspot.com",
+    messagingSenderId: "178550162429",
+    appId: "1:178550162429:web:0a09672222b44f0d398f94"
+  }
 };
 
 /*
